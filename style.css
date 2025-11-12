@@ -1,0 +1,56 @@
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    background-color: wheat;
+    padding: 20px;
+    width: 350px;
+    border-radius: 35px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.bilgilerim{
+    background-color: burlywood;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+
+    display: block; 
+    margin-top: 10px;
+}
+.tarih{
+    font-weight: normal;
+    margin-top: 15px;
+}
+.başlık{
+    color: black;
+    font-weight: bold;
+    
+    display: block;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.açıklama{
+    color: gray;
+    font-weight: normal;
+}
+.profil{
+    display: flex;
+    align-items: center;
+}
+.profil-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.profil-isim{
+    font-weight: bold;
+}
